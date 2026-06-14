@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TOOLong - Educational Material Rentals</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f9ff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #0055a5;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+    }
+    h2 {
+      color: #003366;
+    }
+    .team {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    .member {
+      background: #e6f0ff;
+      padding: 10px;
+      border-radius: 5px;
+      flex: 1 1 200px;
+    }
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+    button {
+      background-color: #0055a5;
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    button:hover {
+      background-color: #003366;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TOOLong</h1>
+    <p>Educational Material Rentals</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#vision">Vision & Mission</a>
+    <a href="#team">Team</a>
+  </nav>
+
+  <section id="about">
+    <h2>About TOOLong</h2>
+    <p>TOOLong is a rental marketplace platform that allows students and communities to rent school materials and equipment instead of purchasing them. It promotes accessibility, affordability, and sustainability.</p>
+  </section>
+
+  <section id="vision">
+    <h2>Vision & Mission</h2>
+    <p><strong>Vision:</strong> To become a trusted and accessible community equipment rental platform.</p>
+    <p><strong>Mission:</strong> Connect tool owners and renters through a safe, convenient, and reliable digital platform.</p>
+  </section>
+
+  <section id="team">
+    <h2>Management Team</h2>
+    <div class="team">
+      <div class="member"><strong>CEO:</strong> Ralph Lauren Santos</div>
+      <div class="member"><strong>Operations Manager:</strong> Venice Glenn Umali</div>
+      <div class="member"><strong>Finance Manager:</strong> Gian Nicole San Diego</div>
+      <div class="member"><strong>Marketing Manager:</strong> Gian Andrei Sampayan</div>
+      <div class="member"><strong>IT Support:</strong> Joey Rosal</div>
+      <div class="member"><strong>Customer Support:</strong> Mark Jason Salvador & Lester Roculas</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Interactive Demo</h2>
+    <p>Click the button to learn more about TOOLong:</p>
+    <button onclick="showMessage()">Learn More</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 TOOLong | Diliman, Quezon City, Philippines</p>
+  </footer>
+
+  <script>
+    function showMessage() {
+      alert("TOOLong helps students and communities by providing affordable rental access to educational tools and equipment!");
+    }
+  </script>
+</body>
+</html>
